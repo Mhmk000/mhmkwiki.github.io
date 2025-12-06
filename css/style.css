@@ -1,0 +1,124 @@
+/* Fons general */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Pàgina inicial */
+body.home {
+  background: radial-gradient(circle at top, #ffb703, #023047 60%, #03071e);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 40px;
+}
+
+body.home h1 {
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.menu-home {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.menu-home li a {
+  background: rgba(3, 4, 94, 0.9);
+  color: #ffb703;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* Menú lateral (dins frame menu.html) */
+body.menu {
+  background: linear-gradient(to bottom, #03045e, #000000);
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+body.menu h2 {
+  font-size: 1.3rem;
+  border-bottom: 2px solid #ffb703;
+  padding-bottom: 5px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.nav-list li {
+  margin-bottom: 10px;
+}
+
+.nav-list a {
+  color: #caf0f8;
+  text-decoration: none;
+  padding: 6px 8px;
+  display: block;
+  border-left: 3px solid transparent;
+}
+
+.nav-list a:hover {
+  border-left-color: #ffb703;
+  background: rgba(255, 183, 3, 0.15);
+}
+
+/* Contingut (dins hardware.html i futurs subapartats) */
+body.content {
+  background: linear-gradient(to right, #1b1b2f, #16213e);
+  color: #e9ecef;
+  padding: 20px 40px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  color: #ffb703;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #adb5bd;
+}
+
+.card {
+  background: rgba(15, 32, 39, 0.9);
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255, 183, 3, 0.4);
+}
+
+.card h2 {
+  color: #ffd166;
+}
+
+.card ul {
+  margin-left: 20px;
+}
+
+.img-main {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.img-side {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #ced4da;
+}
