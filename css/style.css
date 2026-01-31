@@ -6,10 +6,11 @@ body {
 
 /* Pàgina inicial */
 body.home {
-  background: radial-gradient(circle at top, #ffb703, #023047 60%, #03071e);
+  background: linear-gradient(135deg, #0a0540, #9d026d, #ff007a);
   color: #f1f1f1;
   text-align: center;
   padding: 40px;
+  background-size: 200% 200%;
 }
 
 body.home h1 {
@@ -34,9 +35,9 @@ body.home h1 {
 
 /* Menú lateral (dins frame menu.html) */
 body.menu {
-  background: linear-gradient(to bottom, #03045e, #000000);
+  background: linear-gradient(135deg, #0a0540, #9d026d, #ff007a);
   color: #f1f1f1;
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 body.menu h2 {
@@ -70,7 +71,7 @@ body.menu h2 {
 
 /* Contingut (dins hardware.html i futurs subapartats) */
 body.content {
-  background: linear-gradient(to right, #1b1b2f, #16213e);
+  background: linear-gradient(135deg, #0a0540, #9d026d, #ff007a);
   color: #e9ecef;
   padding: 20px 40px;
 }
@@ -121,4 +122,13 @@ footer {
   text-align: center;
   font-size: 0.85rem;
   color: #ced4da;
+}
+.img-main {
+    width: 100%;
+    max-width: 500px; /* Així no ocuparan tota la pantalla */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centrades i amb espai */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
